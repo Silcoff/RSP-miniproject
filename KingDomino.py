@@ -38,10 +38,10 @@ testCrown = [[0, 0, 0, 0, 0],
              [0, 1, 0, 1, 0]]
 
 # importing the crown templates used in template matching, one for each orientation
-template0 = cv.imread('dataset/Crown_Template.png',0)
-template90 = cv.imread('dataset/Crown_Template90.png',0)
-template180 = cv.imread('dataset/Crown_Template180.png',0)
-template270 = cv.imread('dataset/Crown_Template270.png',0)
+template0 = cv.imread('Crown_Template.png',0)
+template90 = cv.imread('Crown_Template90.png',0)
+template180 = cv.imread('Crown_Template180.png',0)
+template270 = cv.imread('Crown_Template270.png',0)
 w, h = template0.shape[::-1]
 
 # correct score for boards 1 - 10
